@@ -1,6 +1,5 @@
 
-import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import WaitlistForm from '@/components/WaitlistForm';
 
 const CTASection = () => {
   return (
@@ -24,14 +23,8 @@ const CTASection = () => {
             Join early adopters using AI to scale customer success intelligently.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <Button 
-              size="lg" 
-              className="bg-[#FF3B3B] hover:bg-[#FF3B3B]/90 text-white px-12 py-6 text-xl font-semibold transition-all duration-300 hover:scale-105 group"
-            >
-              Get Early Access
-              <ArrowRight className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
+          <div className="mb-16">
+            <WaitlistForm />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
