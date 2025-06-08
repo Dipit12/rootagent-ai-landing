@@ -11,13 +11,20 @@ const CompetitiveTable = () => {
       competitor2: { status: false, description: "Scripted triggers only" }
     },
     {
-      name: "Real-Time Churn Prediction",
+      name: "Proactive Churn Prediction",
       rootAgent: { status: true, description: "Yes" },
-      competitor1: { status: false, description: "Delayed" },
+      competitor1: { status: true, description: "Delayed" },
       competitor2: { status: true, description: "Partial" }
     },
+
     {
-      name: "Autonomous Outreach",
+      name: "Unified Customer Health View",
+      rootAgent: { status: true, description: "Yes" },
+      competitor1: { status: true, description: "Yes" },
+      competitor2: { status: true, description: "Yes" }
+    },
+    {
+      name: "Autonomous Task Recommendations",
       rootAgent: { status: true, description: "Personalized + Automated" },
       competitor1: { status: false, description: "Manual" },
       competitor2: { status: false, description: "Semi-Automated" }
@@ -29,7 +36,13 @@ const CompetitiveTable = () => {
       competitor2: { status: false, description: "Limited" }
     },
     {
-      name: "Unified Success Dashboard",
+      name: "Real-Time Multi-Source Data Sync",
+      rootAgent: { status: true, description: "Yes-core focus" },
+      competitor1: { status: false, description: "Some Integrations" },
+      competitor2: { status: true, description: "Yes" }
+    },
+    {
+      name: "Autonomous Email/Playbook Generation",
       rootAgent: { status: true, description: "Intuitive + Actionable" },
       competitor1: { status: false, description: "Complex" },
       competitor2: { status: false, description: "Fragmented UI" }
@@ -37,15 +50,17 @@ const CompetitiveTable = () => {
     {
       name: "CSM-AI Collaboration",
       rootAgent: { status: true, description: "Human in loop" },
+      competitor1: { status: false, description: "Minimal" },
+      competitor2: { status: false, description: "Minimal" }
+    },
+
+    {
+      name: "Explainable AI (Why churn is predicted)",
+      rootAgent: { status: true, description: "Yes - Transparent" },
       competitor1: { status: false, description: "None" },
       competitor2: { status: false, description: "Minimal" }
     },
-    {
-      name: "Dark Mode & UX-First",
-      rootAgent: { status: true, description: "Native Dark UI" },
-      competitor1: { status: false, description: "No" },
-      competitor2: { status: false, description: "No" }
-    }
+    
   ];
 
   return (
