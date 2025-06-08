@@ -2,6 +2,13 @@
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
+  const scrollToWaitlist = () => {
+    const ctaSection = document.getElementById('waitlist-section');
+    if (ctaSection) {
+      ctaSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
@@ -31,6 +38,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-[#FF3B3B] hover:bg-[#FF3B3B]/90 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
+              onClick={scrollToWaitlist}
             >
               Join Waitlist
             </Button>
