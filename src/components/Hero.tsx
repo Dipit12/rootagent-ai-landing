@@ -1,6 +1,5 @@
 
 import { Button } from '@/components/ui/button';
-import { Play } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -28,36 +27,13 @@ const Hero = () => {
             RootAgent transforms how you retain, engage, and understand your customers—before churn happens.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center">
             <Button 
               size="lg" 
               className="bg-[#FF3B3B] hover:bg-[#FF3B3B]/90 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
             >
-              Request Early Access
+              Join Wishlist
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              className="border-[#FF3B3B] text-[#FF3B3B] hover:bg-[#FF3B3B] hover:text-white px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
-            >
-              <Play className="w-5 h-5 mr-2" />
-              Watch Demo
-            </Button>
-          </div>
-
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-[#FF3B3B]">30%</div>
-              <div className="text-sm text-muted-foreground">Average Churn Reduction</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-[#FF3B3B]">10x</div>
-              <div className="text-sm text-muted-foreground">Faster Response Time</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-[#FF3B3B]">95%</div>
-              <div className="text-sm text-muted-foreground">Customer Satisfaction</div>
-            </div>
           </div>
         </div>
       </div>

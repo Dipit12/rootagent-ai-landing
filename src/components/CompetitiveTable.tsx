@@ -85,7 +85,7 @@ const CompetitiveTable = () => {
                 <div className="font-medium">{feature.name}</div>
                 <div className="text-center">
                   <div className="flex items-center justify-center space-x-2">
-                    <Check className="w-5 h-5 text-[#FF3B3B]" />
+                    <Check className="w-5 h-5 text-green-500" />
                     <span className="text-sm text-muted-foreground">{feature.rootAgent.description}</span>
                   </div>
                 </div>
