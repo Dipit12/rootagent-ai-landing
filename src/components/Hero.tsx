@@ -32,7 +32,7 @@ const Hero = () => {
               size="lg" 
               className="bg-[#FF3B3B] hover:bg-[#FF3B3B]/90 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105"
             >
-              Join Wishlist
+              Join Waitlist
             </Button>
           </div>
         </div>

@@ -18,9 +18,6 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" className="hidden md:inline-flex">
-            Sign In
-          </Button>
           <Button className="bg-[#FF3B3B] hover:bg-[#FF3B3B]/90">
             Request Access
           </Button>
